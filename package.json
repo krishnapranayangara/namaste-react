@@ -2,7 +2,8 @@
   "name": "namaste-react",
   "version": "1.0.0",
   "description": ":learning React from Scratch",
-  "main": "App.js",
+  "source": "index.html",
+
   "scripts": {
     "test": "jest"
   },
@@ -24,5 +25,12 @@
   "homepage": "https://github.com/krishnapranayangara/namaste-react#readme",
   "devDependencies": {
     "parcel": "^2.14.3"
-  }
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ]
 }
