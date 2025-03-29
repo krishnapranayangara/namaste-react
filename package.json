@@ -1,0 +1,28 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": ":learning React from Scratch",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnapranayangara/namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "learning",
+    "Krishna",
+    "Angara"
+  ],
+  "author": "Krishna pranay Angara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishnapranayangara/namaste-react/issues"
+  },
+  "homepage": "https://github.com/krishnapranayangara/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.14.3"
+  }
+}
