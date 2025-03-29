@@ -18,8 +18,6 @@ const h1 = React.createElement(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(h1);
 
-// const heading = React.createElement('h1', {id: "heading", xyz: "abc"}, 'Hello, Dojo!');
-
 console.log(h1);
 
 
