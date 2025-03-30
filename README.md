@@ -22,3 +22,13 @@
     - HTTPs
     - Tree Shaking - remove unused code 
     - Different Dev and Prod bundles
+
+# JSX
+    - JSX is not  valid Java Script but HTML like script that made react coding easier
+    - JSX is not built in JS engine
+    - JS Engine understands es6 - ECMAScript 6 and other versions of ECMAScript
+    - Parcel Transpiles(to encode) JSX before going to JS Engine.
+    - Parcel uses Babel(JS Compiler) to transpile JSX to JS Engine compatible ECMA Script
+    - Babel can transpile/convert the code to browser compatible code 
+    - JSX Takes care of Data injection attacks (cross-site Scripting attack)
+    - 
