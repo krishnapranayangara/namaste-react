@@ -11,9 +11,7 @@ import { useState } from "react";
 // let restaurantList = [];
 
 const Body = () => {
-    let [restaurantList] = useState(resList);
-
-
+    let [restaurantList, setListOfRestaurants] = useState(resList);
 
 
     return (
@@ -22,8 +20,8 @@ const Body = () => {
                 <button
                     className="filter-btn"
                     onClick={() => {
-                        restaurantList = resList.filter((res) => res.data.avgRating > 4);
-                        console.log(resList);
+                        const filteredList = restaurantList.filter((res) => res.data.avgRating > 4);
+                        setListOfRestaurants(filteredList);
                     }}
                 >
                     Top rated Restaurants
