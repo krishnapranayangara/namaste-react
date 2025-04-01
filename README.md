@@ -31,4 +31,7 @@
     - Parcel uses Babel(JS Compiler) to transpile JSX to JS Engine compatible ECMA Script
     - Babel can transpile/convert the code to browser compatible code 
     - JSX Takes care of Data injection attacks (cross-site Scripting attack)
-    - 
+
+# React Hooks
+    - useState() - To manage state variables in react
+    - useEffect()

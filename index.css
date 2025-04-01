@@ -1,24 +1,92 @@
+/* Header Styles */
 .header {
-
     display: flex;
-    justify-content: space-between; 
-    border: 1px solid black;
+    justify-content: space-between;
+
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 1rem;
 }
 
-.nav-items>ul {
-    font-size: 20px;
+.nav-items > ul {
     display: flex;
-    padding: 0 20px;
     list-style-type: none;
-
+    font-size: 1.25rem;
+    padding: 0 1.25rem;
+    margin: 0;
 }
 
-.nav-items>ul>li {
+.nav-items > ul > li {
     padding: 10px 20px;
-    margin: 10px;
+    cursor: pointer;
+}
+
+/* Search Section */
+.filter {
+    padding: 1.25rem;
+    border: 1px solid #e0e0e0;
+    margin: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+.filter-btn {
+    padding: 1.25rem;
+    border: 1px solid #420000;
+    margin: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+
+/* Restaurant Cards Section */
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.res-card {
+    width: 250px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.res-card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.res-logo {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/* Restaurant Card Content */
+.res-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.res-card h4 {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    color: #666;
+    font-weight: normal;
 }
